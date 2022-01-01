@@ -7,3 +7,9 @@
     background-color: #F199FF;
     color: white;
 }
+
+@media (min-width: 992px){
+    .navbar-brand {
+        position: absolute;
+    }
+}
