@@ -1,15 +1,17 @@
 import React from "react";
 import NaviBar from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css"
-import Refleksi from "./page/Refleksi";
-// import Module from "./page/Module";
+// import MelanjutkanKarya from "./page/MelanjutkanKarya";
+// import Refleksi from "./page/Refleksi";
+import Module from "./page/Module";
 
 function App() {
   return (
     <div className="App">
       <NaviBar />
-      <Refleksi></Refleksi>
-      {/* <Module></Module> */}
+      <Module></Module>
+      {/* <Refleksi></Refleksi> */}
+      {/* <MelanjutkanKarya></MelanjutkanKarya> */}
     </div>
   );
 }
