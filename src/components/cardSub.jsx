@@ -12,11 +12,22 @@ const buttonPage = {
 
 function cardSub(props) {
   return (
-    <div className="col-md-4">
-      <Card style={{borderRadius: 10}}>
-        <Card.Header 
+    <div>
+      <Card
+        style={{
+          borderRadius: 10,
+          paddingBottom: 10,
+          borderColor: "rgb(144, 6, 167)"
+        }}
+      >
+        <Card.Header
           as="h5"
-          style={{ backgroundColor: "rgb(144, 6, 167)", color: "white", borderTopLeftRadius: 10, borderTopRightRadius: 10 }}
+          style={{
+            backgroundColor: "rgb(144, 6, 167)",
+            color: "white",
+            borderTopLeftRadius: 10,
+            borderTopRightRadius: 10
+          }}
         >
           {props.content.title}
         </Card.Header>
