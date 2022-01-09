@@ -3,9 +3,9 @@ import ButtonItem from "../components/Button";
 import "../style/button.css"
 import illustrasi1 from "../picture/illustrasi1.png";
 import illustrasi2 from "../picture/illustrasi2.png";
-import unlimited from "../picture/unlimited.png";
-import easy from "../picture/easy.png";
-import learn from "../picture/learn.png";
+import unlimited1 from "../picture/unlimited1.png";
+import easy1 from "../picture/easy1.png";
+import learn1 from "../picture/learn1.png";
 import about from "../picture/about.png";
 import about2 from "../picture/about2.png";
 import about3 from "../picture/about3.png";
@@ -39,11 +39,11 @@ function LandingPage() {
         <div>
           <div className="container">
             <div className="row">
-                <div style={{marginTop:"200px", display:"flex", justifyContent:"flex-end", marginLeft:"-50px"}} className="col-md-6">
+                <div style={{marginTop:"180px", display:"flex", justifyContent:"flex-end", marginLeft:"-50px"}} className="col-md-6">
                     <img style={{width:"500px", height:"270px", marginRight:"-50px"}} src={illustrasi2}></img>
                 </div>
 
-            <div className="col-md-6 d-flex justify-content-end" style={{paddingLeft:"50px", marginTop: "50px"}}>
+            <div className="col-md-6 d-flex justify-content-end" style={{paddingLeft:"50px", marginTop: "30px"}}>
                 <div>
                     <h1 style={{marginTop: "150px", fontFamily: 'Roboto', fontSize:"55px", fontWeight:"bold"}}>Eksplor <br></br>Kreatifitas Kamu!</h1>
                     <p style={{marginTop: "20px", fontFamily: 'Roboto', fontSize:"16px", fontWeight:"normal", lineHeight:"25px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit <br></br> sed do eiusmod tempor incididunt ut labore et dolore <br></br> magna aliqua. Ut enim ad minim veniam.</p>
@@ -61,6 +61,23 @@ function LandingPage() {
             <div className="d-flex justify-content-center">
                 <p style={{fontFamily: 'Roboto', fontSize:"16px", fontWeight:"normal", lineHeight:"25px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt</p>
             </div>
+
+            <div className="container">
+              <div className="row">
+                <div className="col-md-4 d-flex justify-content-center" style={{marginBottom:"100px"}}>
+                <img style={{width:"200px", height:"200px", paddingBottom:"5px", marginTop:"50px", marginLeft:"200px"}} src={unlimited1}></img>
+                </div>
+                <div className="col-md-4 d-flex justify-content-center">
+                <img style={{width:"200px", height:"200px", paddingBottom:"5px", marginTop:"50px"}} src={easy1}></img>
+                </div>
+                <div className="col-md-4 d-flex justify-content-center">
+                <img style={{width:"200px", height:"200px", paddingBottom:"5px", marginTop:"50px", marginRight:"200px"}} src={learn1}></img>
+                </div>
+              </div>
+            </div>
+
+
+
 
             {/* --Tentang Kami-- */}
 
