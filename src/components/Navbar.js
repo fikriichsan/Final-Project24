@@ -16,15 +16,12 @@ const NaviBar = () => {
                     <Nav.Item>
                         <Nav.Link eventKey="link-1">Home</Nav.Link>
                     </Nav.Item>
-                    <NavDropdown title="Modul" id="basic-nav-dropdown" renderMenuOnMount={true}>  
+                    <NavDropdown title="Kelas" id="basic-nav-dropdown" renderMenuOnMount={true}>  
                     <NavDropdown.Item>
-                        Modul 5
+                        Remedial
                     </NavDropdown.Item>
                     <NavDropdown.Item>
-                        Modul 6
-                    </NavDropdown.Item>
-                    <NavDropdown.Item>
-                        Tugas
+                        Presisi
                     </NavDropdown.Item>
                     </NavDropdown>
                 </Nav>

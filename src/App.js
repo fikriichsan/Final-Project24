@@ -1,19 +1,20 @@
 import React from "react";
 import NaviBar from "./components/Navbar";
 import "bootstrap/dist/css/bootstrap.min.css"
-// import MelanjutkanKarya from "./page/MelanjutkanKarya";
-import Refleksi from "./page/Refleksi";
+// import Refleksi from "./page/Refleksi";
 // import Module from "./page/Module";
-import Modul5 from "./page/Modul5"
+// import Kelas from "./page/Kelas";
+import LandingPage from "./page/LandingPage";
+
 
 function App() {
   return (
     <div className="App">
       <NaviBar />
+      {/* <Kelas></Kelas> */}
       {/* <Module></Module> */}
-      {/* <Modul5></Modul5> */}
-      <Refleksi></Refleksi>
-      {/* <MelanjutkanKarya></MelanjutkanKarya> */}
+      {/* <Refleksi></Refleksi> */}
+      <LandingPage></LandingPage>
     </div>
   );
 }
