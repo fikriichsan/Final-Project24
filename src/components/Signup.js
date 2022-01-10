@@ -1,8 +1,23 @@
 import React from 'react';
 import { Formik, Form } from 'formik';
-import { TextField } from './TextField';
 import * as Yup from 'yup';
 import "../style/buttonRegister.css"
+import { ErrorMessage, useField } from 'formik';
+
+export const TextField = ({ label, ...props }) => {
+  const [field, meta] = useField(props);
+  return (
+    <div className="mb-2">
+      <label htmlFor={field.name} style={{marginLeft:"30px"}}>{label}</label>
+      <input
+        className={`form-control shadow-none ${meta.touched && meta.error && 'is-invalid'}`}
+        {...field} {...props}
+        autoComplete="off"
+      />
+      <ErrorMessage component="div" name={field.name} style={{marginLeft:"30px"}} className="error" />
+    </div>
+  )
+}
 
 
 export const Signup = () => {
@@ -39,7 +54,7 @@ export const Signup = () => {
     >
       {formik => (
         <div>
-          <h1 className="my-4 font-weight-bold .display-4" style={{marginLeft:"30px", fontWeight:"600"}}>Sign Up</h1>
+          <h1 className="my-4 font-weight-bold .display-4" style={{marginLeft:"30px", fontWeight:"600"}}>ADD USER</h1>
           <Form>
             <TextField label="First Name" name="firstName" type="text" style={{width:"400px", marginLeft:"30px"}} />
             <TextField label="last Name" name="lastName" type="text" style={{width:"400px", marginLeft:"30px"}} />
