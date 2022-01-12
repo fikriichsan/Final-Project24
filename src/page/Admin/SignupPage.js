@@ -1,6 +1,6 @@
-import '../style/signup.css';
-import mountain from '../picture/mountain.jpg';
-import { Signup } from '../components/Signup';
+import '../../style/signup.css';
+import mountain from '../../picture/mountain.jpg';
+import { Signup } from '../../components/Signup';
 
 function SignupPage() {
   return (
