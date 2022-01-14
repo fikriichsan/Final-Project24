@@ -4,16 +4,24 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 import ButtonItem from "../components/Button";
 import "../style/button.css"
+import NaviBar from "../components/Navbar";
+import { Link } from "react-router-dom";
 
 const buttonPage = {
     title: "Explore",
 };
-
+const buttonBack = {
+  title: "Back",
+};
 
 function Modul6() {
   return (
     <div>
-
+      <NaviBar></NaviBar>
+      <div>
+      <Link to="/module">
+        <ButtonItem title={buttonBack.title} style={{marginTop:"10px", marginLeft:"60px"}}></ButtonItem>
+      </Link>
       <h1 style={{ paddingTop: "60px", paddingLeft: "60px" }}>Modul 6</h1>
       <p
         style={{ fontSize: "20px", paddingBottom: "40px", paddingLeft: "60px" }}
@@ -58,6 +66,7 @@ function Modul6() {
         <ButtonItem title={buttonPage.title} style={{marginTop:"-100px",marginLeft:"15px", borderRadius:"5px"}}></ButtonItem>
         </div>
       </Row>
+      </div>
     </div>
   );
 }

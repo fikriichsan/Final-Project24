@@ -3,6 +3,8 @@ import { Formik, Form } from 'formik';
 import * as Yup from 'yup';
 import "../style/buttonRegister.css"
 import { ErrorMessage, useField } from 'formik';
+import { Link } from "react-router-dom";
+
 
 export const TextField = ({ label, ...props }) => {
   const [field, meta] = useField(props);
@@ -50,7 +52,9 @@ export const Signin = () => {
             <TextField label="Email" name="email" type="email" style={{width:"400px", marginLeft:"30px"}}/>
             <TextField label="password" name="password" type="password" style={{width:"400px", marginLeft:"30px"}} />
             <TextField label="Confirm Password" name="confirmPassword" type="password" style={{width:"400px", marginLeft:"30px"}} />
+            <Link to="/kelas">
             <button className="buttonRegister" style={{marginTop:"15px", marginLeft:"30px", padding:"15px", lineHeight:"0px"}} type="submit">Register</button>
+            </Link>
           </Form>
         </div>
       )}

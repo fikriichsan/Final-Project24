@@ -9,6 +9,9 @@ import learn1 from "../picture/learn1.png";
 import about from "../picture/about.png";
 import about2 from "../picture/about2.png";
 import about3 from "../picture/about3.png";
+import { Link } from "react-router-dom";
+import NaviBar from "../components/Navbar";
+
 
 const buttonPage = {
     title: "Ayo Mulai",
@@ -18,6 +21,7 @@ function LandingPage() {
     return (
       <div>
         <div>
+        <NaviBar></NaviBar>
           <div className="container">
             <div className="row">
               <div className="col-md-6 d-flex justify-content-start" style={{marginLeft:"50px"}}>
@@ -47,7 +51,9 @@ function LandingPage() {
                 <div>
                     <h1 style={{marginTop: "150px", fontFamily: 'Roboto', fontSize:"55px", fontWeight:"bold"}}>Eksplor <br></br>Kreatifitas Kamu!</h1>
                     <p style={{marginTop: "20px", fontFamily: 'Roboto', fontSize:"16px", fontWeight:"normal", lineHeight:"25px"}}>Lorem ipsum dolor sit amet, consectetur adipiscing elit <br></br> sed do eiusmod tempor incididunt ut labore et dolore <br></br> magna aliqua. Ut enim ad minim veniam.</p>
+                    <Link to="/SigninPage">
                     <ButtonItem title={buttonPage.title} style={{marginTop:"10px", padding:"22px",lineHeight:"0px", paddingLeft:"20px", paddingRight:"20px"}}></ButtonItem>
+                    </Link>
                 </div>
 
             </div>

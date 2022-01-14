@@ -1,9 +1,20 @@
 import React from "react";
 import Card from "../components/card"
+import NaviBar from "../components/Navbar";
+import ButtonItem from "../components/Button";
+import "../style/button.css"
+import { Link } from "react-router-dom";
+
+
+const buttonPage = {
+    title: "Explore",
+};
 
 function Module() {
   return (
       <div>
+          <NaviBar></NaviBar>
+          <div>
           <div className="d-flex justify-content-center">
               <h2 style={{marginTop: "90px", fontWeight:"650"}}>MODUL PEMBELAJARAN</h2>
           </div>
@@ -17,6 +28,9 @@ function Module() {
                           Paragraph:"Pembelajaran Konstektual Seni dan Budaya Berbasis Proyek.",
                       }}>
                       </Card>
+                      <Link to="/Modul5">
+                      <ButtonItem title={buttonPage.title} style={{marginTop:"-100px", marginLeft:"15px"}}></ButtonItem>
+                      </Link>
                   </div>
                   <div className="col-md-4">
                       <Card content={{
@@ -25,10 +39,14 @@ function Module() {
                           Paragraph:"Seni dan Budaya Sebagai Media Artikulasi Pengetahuan.",
                       }}>
                       </Card>
+                      <Link to="/Modul6">
+                      <ButtonItem title={buttonPage.title} style={{marginTop:"-100px", marginLeft:"15px"}}></ButtonItem>
+                      </Link>
                   </div>
               </div>
           </div>
-      </div>
+        </div>
+          </div>
       </div>
   )
 }
