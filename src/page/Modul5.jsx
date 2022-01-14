@@ -2,7 +2,12 @@ import React from "react";
 import CardSub from "../components/cardSub";
 import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
+import ButtonItem from "../components/Button";
+import "../style/button.css"
 
+const buttonPage = {
+    title: "Explore",
+};
 
 function Modul5() {
   return (
@@ -23,6 +28,7 @@ function Modul5() {
               list3: "Hasil Refleksi"
             }}
           ></CardSub>
+            <ButtonItem title={buttonPage.title} style={{marginTop:"-100px",marginLeft:"15px", borderRadius:"5px"}}></ButtonItem>
         </Col>
 
         <div style={{ paddingBottom: "40px" }}>
@@ -34,8 +40,10 @@ function Modul5() {
               list3: "Kesimpulan Hasil Riset"
             }}
           ></CardSub>
+            <ButtonItem title={buttonPage.title} style={{marginTop:"-100px",marginLeft:"15px", borderRadius:"5px"}}></ButtonItem>
         </div>
 
+        <div>
         <CardSub
           content={{
             title: "Ide Karya",
@@ -44,6 +52,8 @@ function Modul5() {
             list3: "Evaluasi"
           }}
         ></CardSub>
+          <ButtonItem title={buttonPage.title} style={{marginTop:"-100px",marginLeft:"15px", borderRadius:"5px"}}></ButtonItem>
+        </div>
       </Row>
     </div>
   );

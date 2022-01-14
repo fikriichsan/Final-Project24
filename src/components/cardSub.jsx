@@ -2,12 +2,6 @@ import React from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Card from "react-bootstrap/Card";
 import Form from "react-bootstrap/Form";
-import ButtonItem from "../components/Button";
-import "../style/button.css"
-
-const buttonPage = {
-  title: "Explore"
-};
 
 function cardSub(props) {
   return (
@@ -33,13 +27,12 @@ function cardSub(props) {
         </Card.Header>
         <Card.Body>
           <Form>
-            <Form.Group className="mb-3" controlId="formBasicCheckbox">
+            <Form.Group className="mb-5" controlId="formBasicCheckbox">
               <Form.Check type="checkbox" label={props.content.list1} style={{paddingBottom:"10px", paddingTop:"5px"}} />
               <Form.Check type="checkbox" label={props.content.list2} style={{paddingBottom:"10px", paddingTop:"5px"}} />
               <Form.Check type="checkbox" label={props.content.list3} style={{paddingBottom:"10px", paddingTop:"5px"}} />
             </Form.Group>
           </Form>
-          <ButtonItem title={buttonPage.title} style={{marginTop:"10px", borderRadius:"5px"}}></ButtonItem>
         </Card.Body>
       </Card>
     </div>
