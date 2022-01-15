@@ -8,9 +8,6 @@ import { Link } from "react-router-dom";
 const buttonPage = {
     title: "Explore",
 };
-const buttonEdit = {
-    title: "Edit",
-};
 
 function Module() {
   return (
@@ -32,9 +29,6 @@ function Module() {
                       <Link to="/module">
                       <ButtonItem title={buttonPage.title} style={{marginTop:"-100px", marginLeft:"15px"}}></ButtonItem>
                       </Link>
-                      <Link to="">
-                      <ButtonItem title={buttonEdit.title} style={{marginTop:"-100px", marginLeft:"70px", borderRadius:"5px"}}></ButtonItem>
-                      </Link>
 
                   </div>
                   <div className="col-md-4">
@@ -46,9 +40,6 @@ function Module() {
                       </Card>
                       <Link to="/">
                       <ButtonItem title={buttonPage.title} style={{marginTop:"-100px", marginLeft:"15px"}}></ButtonItem>
-                      </Link>
-                      <Link to="/">
-                      <ButtonItem title={buttonEdit.title} style={{marginTop:"-100px", marginLeft:"70px", borderRadius:"5px"}}></ButtonItem>
                       </Link>
 
                   </div>
