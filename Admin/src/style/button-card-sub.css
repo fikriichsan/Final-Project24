@@ -1,0 +1,26 @@
+.buttonItem {
+  position: relative;
+  width: 180px;
+  height: 35px;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 500;
+  color: #fff;
+  border-color: rgb(235, 32, 191);
+  background-color: white;
+  color: rgb(235, 32, 191) #d139ff;
+  font-weight: 700;
+  border-radius: 100px;
+
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+}
+
+.buttonItem:hover {
+  background-color: #d139ff;
+  border: none;
+  box-shadow: 0px 10px 20px rgba(80, 80, 80, 0.062);
+  color: #fff(0, 0, 0);
+  transform: translateY(-7px);
+}
