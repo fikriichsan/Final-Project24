@@ -1,0 +1,15 @@
+.nav-item.dropdown:hover .dropdown-menu {
+    display: block;
+    margin-top: 0
+}
+
+.dropdown-menu > .dropdown-item:hover {
+    background-color: #F199FF;
+    color: white;
+}
+
+@media (min-width: 992px){
+    .navbar-brand {
+        position: absolute;
+    }
+}
