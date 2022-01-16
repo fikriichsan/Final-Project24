@@ -38,7 +38,9 @@ function Modul6() {
               list3: "Proses kerja: eksperimentasi"
             }}
           ></CardSub>
-              <ButtonItem title={buttonPage.title} style={{marginTop:"-100px",marginLeft:"15px", borderRadius:"5px"}}></ButtonItem>
+          <Link to="/MelanjutkanKarya">
+          <ButtonItem title={buttonPage.title} style={{marginTop:"-100px",marginLeft:"15px", borderRadius:"5px"}}></ButtonItem>
+          </Link>
 
         </Col>
 
@@ -51,7 +53,9 @@ function Modul6() {
               list3: "Integrasi mata pelajaran"
             }}
           ></CardSub>
+          <Link to="/RancanganKarya">
           <ButtonItem title={buttonPage.title} style={{marginTop:"-100px",marginLeft:"15px", borderRadius:"5px"}}></ButtonItem>
+          </Link>
         </div>
 
         <div>
@@ -63,7 +67,9 @@ function Modul6() {
             list3: "Dokumentasi"
           }}
         ></CardSub>
+        <Link to="/ProduksiKarya">
         <ButtonItem title={buttonPage.title} style={{marginTop:"-100px",marginLeft:"15px", borderRadius:"5px"}}></ButtonItem>
+        </Link>
         </div>
       </Row>
       </div>
