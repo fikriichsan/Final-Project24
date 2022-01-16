@@ -49,7 +49,7 @@ pengerjaan proyek/karya</h6>
           <Link to="/Modul6">
             <ButtonItem title={buttonBack.title} style={{marginTop:"-100px", marginLeft:"70px", padding:"20px",lineHeight:"0", borderRadius:"5px"}}></ButtonItem>
           </Link>
-          <Link to="/MelanjutkanKarya">
+          <Link to="/RancanganKarya">
           <ButtonItem title={buttonNext.title} style={{marginTop:"-100px", marginLeft:"820px", padding:"20px",lineHeight:"0", borderRadius:"5px"}}></ButtonItem>
           </Link>
           </div>
