@@ -11,6 +11,9 @@ import Modul6 from "./page/Modul6";
 import MelanjutkanKarya from "./page/MelanjutkanKarya";
 import RancanganKarya from "./page/RancanganKarya"
 import ProduksiKarya from "./page/ProduksiKarya"
+import IdeKarya from "./page/IdeKarya"
+import Refleksi from "./page/Refleksi"
+import Riset from "./page/Riset"
 
 
 
@@ -28,6 +31,10 @@ function App() {
         <Route path="/MelanjutkanKarya" element={<MelanjutkanKarya />}></Route>
         <Route path="/RancanganKarya" element={<RancanganKarya />}></Route>
         <Route path="/ProduksiKarya" element={<ProduksiKarya />}></Route>
+        
+        <Route path="/IdeKarya" element={<IdeKarya />}></Route>
+        <Route path="/Refleksi" element={<Refleksi />}></Route>
+        <Route path="/Riset" element={<Riset />}></Route>
       </Routes>
     </div>
   );

@@ -7,7 +7,6 @@ import "../style/button.css"
 import NaviBar from "../components/Navbar";
 import { Link } from "react-router-dom";
 
-
 const buttonPage = {
     title: "Explore",
 };
@@ -39,7 +38,9 @@ function Modul5() {
               list3: "Hasil Refleksi"
             }}
           ></CardSub>
-            <ButtonItem title={buttonPage.title} style={{marginTop:"-100px",marginLeft:"15px", borderRadius:"5px"}}></ButtonItem>
+          <Link to="/Refleksi">
+          <ButtonItem title={buttonPage.title} style={{marginTop:"-100px",marginLeft:"15px", borderRadius:"5px"}}></ButtonItem>
+          </Link>
         </Col>
 
         <div style={{ paddingBottom: "40px" }}>
@@ -51,7 +52,9 @@ function Modul5() {
               list3: "Kesimpulan Hasil Riset"
             }}
           ></CardSub>
-            <ButtonItem title={buttonPage.title} style={{marginTop:"-100px",marginLeft:"15px", borderRadius:"5px"}}></ButtonItem>
+          <Link to="/Riset">
+          <ButtonItem title={buttonPage.title} style={{marginTop:"-100px",marginLeft:"15px", borderRadius:"5px"}}></ButtonItem>
+          </Link>
         </div>
 
         <div>
@@ -63,7 +66,9 @@ function Modul5() {
             list3: "Evaluasi"
           }}
         ></CardSub>
-          <ButtonItem title={buttonPage.title} style={{marginTop:"-100px",marginLeft:"15px", borderRadius:"5px"}}></ButtonItem>
+        <Link to="/IdeKarya">
+        <ButtonItem title={buttonPage.title} style={{marginTop:"-100px",marginLeft:"15px", borderRadius:"5px"}}></ButtonItem>
+        </Link>
         </div>
       </Row>
       </div>
