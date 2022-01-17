@@ -46,7 +46,7 @@ function Refleksi() {
         <div style={{ paddingBottom: "40px", textAlign: "center" }}>
           <img
             style={{ width: "700px", height: "400px" }}
-            src={runtutanBelajar}
+            src={runtutanBelajar} alt="belajar" 
           ></img>
         </div>
 
