@@ -55,13 +55,13 @@ function ProduksiKarya() {
           <div className="container">
               <div className="row">
                   <div className="col-md-4">
-                  <img style={{width:"300px", height:"270px"}} src={Rectangle1}></img>
+                  <img style={{width:"300px", height:"270px"}} src={Rectangle1} alt="ilus"></img>
                   </div>
                   <div className="col-md-4">
-                  <img style={{width:"300px", height:"270px"}} src={Rectangle2}></img>
+                  <img style={{width:"300px", height:"270px"}} src={Rectangle2} alt="ilus"></img>
                   </div>
                   <div className="col-md-4">
-                  <img style={{width:"300px", height:"270px", marginBottom:"100px"}} src={Rectangle3}></img>
+                  <img style={{width:"300px", height:"270px", marginBottom:"100px"}} src={Rectangle3} alt="ilus"></img>
                   </div>
               </div>
           </div>
