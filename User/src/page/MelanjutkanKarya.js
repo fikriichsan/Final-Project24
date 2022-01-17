@@ -23,7 +23,7 @@ function MelanjutkanKarya() {
           <h3 className="d-flex justify-content-center" style={{marginTop:"50px"}}>Runtutan Proses Belajar</h3>
           </div>
           <div style={{marginTop:"50px", display:"flex", justifyContent:"center"}}>
-                <img style={{width:"600px", height:"350px"}} src={runtutan}></img>
+                <img style={{width:"600px", height:"350px"}} src={runtutan} alt="ilus"></img>
           </div>
 
           <div>
