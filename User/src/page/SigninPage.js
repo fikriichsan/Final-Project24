@@ -2,7 +2,6 @@ import '../style/signup.css';
 import mountain from '../picture/mountain.jpg';
 import { Signin } from '../components/Signin';
 import NaviBar from "../components/Navbar";
-import { Link } from "react-router-dom";
 
 function SigninPage() {
   return (
