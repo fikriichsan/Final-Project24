@@ -17,7 +17,7 @@ const NaviBar = () => {
                 <Navbar.Collapse id="basic-navbar-nav" className="justify-content-center">
                 <Nav id="basic-navbar-nav" className="justify-content-center">
                     <Nav.Item>
-                        <Link to="/"  style={{ textDecoration: "none", color: "black", lineHeight:"38px", marginRight:"20px", color:"gray" }}>
+                        <Link to="/"  style={{ textDecoration: "none", lineHeight:"38px", marginRight:"20px", color:"gray" }}>
                         Home
                         </Link>
                     </Nav.Item>
