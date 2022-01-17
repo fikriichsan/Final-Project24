@@ -32,7 +32,7 @@ function LandingPage() {
               </div>
 
               <div style={{marginTop:"100px", display:"flex", justifyContent:"flex-end", marginLeft:"-50px"}} className="col-md-6">
-                <img style={{width:"500px", height:"350px"}} src={illustrasi1}></img>
+                <img style={{width:"500px", height:"350px"}} src={illustrasi1} alt="ilus"></img>
               </div>
 
             </div>
@@ -44,7 +44,7 @@ function LandingPage() {
           <div className="container">
             <div className="row">
                 <div style={{marginTop:"180px", display:"flex", justifyContent:"flex-end", marginLeft:"-50px"}} className="col-md-6">
-                    <img style={{width:"500px", height:"270px", marginRight:"-50px"}} src={illustrasi2}></img>
+                    <img style={{width:"500px", height:"270px", marginRight:"-50px"}} src={illustrasi2} alt="ilus"></img>
                 </div>
 
             <div className="col-md-6 d-flex justify-content-end" style={{paddingLeft:"50px", marginTop: "30px"}}>
@@ -71,13 +71,13 @@ function LandingPage() {
             <div className="container">
               <div className="row">
                 <div className="col-md-4 d-flex justify-content-center" style={{marginBottom:"100px"}}>
-                <img style={{width:"200px", height:"200px", paddingBottom:"5px", marginTop:"50px", marginLeft:"200px"}} src={unlimited1}></img>
+                <img style={{width:"200px", height:"200px", paddingBottom:"5px", marginTop:"50px", marginLeft:"200px"}} src={unlimited1} alt="ilus"></img>
                 </div>
                 <div className="col-md-4 d-flex justify-content-center">
-                <img style={{width:"200px", height:"200px", paddingBottom:"5px", marginTop:"50px"}} src={easy1}></img>
+                <img style={{width:"200px", height:"200px", paddingBottom:"5px", marginTop:"50px"}} src={easy1} alt="ilus"></img>
                 </div>
                 <div className="col-md-4 d-flex justify-content-center">
-                <img style={{width:"200px", height:"200px", paddingBottom:"5px", marginTop:"50px", marginRight:"200px"}} src={learn1}></img>
+                <img style={{width:"200px", height:"200px", paddingBottom:"5px", marginTop:"50px", marginRight:"200px"}} src={learn1} alt="ilus"></img>
                 </div>
               </div>
             </div>
@@ -99,11 +99,11 @@ function LandingPage() {
                     <p style={{marginLeft:"25px",marginRight:"25px", paddingTop:"10px"}}>Remedial adalah tempat belajar dan berlatih seni yang diciptakan oleh Serrum untuk kamu anak muda yang sedang duduk di bangku SMA/sederajat. Di sini, kita akan belajar seni dengan cara kekinian yang berfokus pada penggalian informasi dan interaksi aktif serta saling membangun. Tujuannya, agar kamu punya pengetahuan dan kecapakan terbaik di bidang seni. <br></br><br></br>Serrum merupakan perkumpulan studi seni rupa dan pendidikan yang didirikan pada tahun 2006. Serrum berfokus pada isu pendidikan, sosial-politik dan perkotaan dengan pendekatan presentasi yang edukatif dan artistik. </p>
                 </div>
                 <div style={{marginTop:"-50px", display:"flex", justifyContent:"flex-end", flexDirection:"column", marginLeft:"20px"}} className="col-md-3 px-5">
-                    <img style={{width:"200px", height:"200px", paddingBottom:"5px"}} src={about}></img>
-                    <img style={{width:"200px", height:"200px", paddingTop:"5px"}} src={about2}></img>
+                    <img style={{width:"200px", height:"200px", paddingBottom:"5px"}} src={about} alt="ilus"></img>
+                    <img style={{width:"200px", height:"200px", paddingTop:"5px"}} src={about2} alt="ilus"></img>
                 </div>
                 <div style={{marginTop:"-50px", marginLeft:"-25px", display:"flex"}} className="col-md-3">
-                    <img style={{width:"200px", height:"400px"}} src={about3}></img>
+                    <img style={{width:"200px", height:"400px"}} src={about3} alt="ilus"></img>
                 </div>
                 </div>
             </div>
